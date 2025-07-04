@@ -1,0 +1,207 @@
+[33mcommit bc8e00be01efb8b4cb56207e5e088d2ea78cc59d[m
+Author: Jayu Dhengle <Jayu.Dhengle@gmail.com>
+Date:   Fri Jul 4 18:34:36 2025 +0530
+
+    Revert "new project added to git"
+    
+    This reverts commit be3e20722cfa270928ae33171f442f5207467a3f.
+
+[1mdiff --git a/.classpath b/.classpath[m
+[1mdeleted file mode 100644[m
+[1mindex 65be058..0000000[m
+[1m--- a/.classpath[m
+[1m+++ /dev/null[m
+[36m@@ -1,41 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="UTF-8"?>[m
+[31m-<classpath>[m
+[31m-	<classpathentry kind="src" output="target/test-classes" path="src/test/java">[m
+[31m-		<attributes>[m
+[31m-			<attribute name="test" value="true"/>[m
+[31m-			<attribute name="optional" value="true"/>[m
+[31m-			<attribute name="maven.pomderived" value="true"/>[m
+[31m-		</attributes>[m
+[31m-	</classpathentry>[m
+[31m-	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">[m
+[31m-		<attributes>[m
+[31m-			<attribute name="test" value="true"/>[m
+[31m-			<attribute name="maven.pomderived" value="true"/>[m
+[31m-			<attribute name="optional" value="true"/>[m
+[31m-		</attributes>[m
+[31m-	</classpathentry>[m
+[31m-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21">[m
+[31m-		<attributes>[m
+[31m-			<attribute name="maven.pomderived" value="true"/>[m
+[31m-		</attributes>[m
+[31m-	</classpathentry>[m
+[31m-	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">[m
+[31m-		<attributes>[m
+[31m-			<attribute name="maven.pomderived" value="true"/>[m
+[31m-		</attributes>[m
+[31m-	</classpathentry>[m
+[31m-	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>[m
+[31m-	<classpathentry kind="src" output="target/classes" path="src/main/java">[m
+[31m-		<attributes>[m
+[31m-			<attribute name="optional" value="true"/>[m
+[31m-			<attribute name="maven.pomderived" value="true"/>[m
+[31m-		</attributes>[m
+[31m-	</classpathentry>[m
+[31m-	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">[m
+[31m-		<attributes>[m
+[31m-			<attribute name="maven.pomderived" value="true"/>[m
+[31m-			<attribute name="optional" value="true"/>[m
+[31m-		</attributes>[m
+[31m-	</classpathentry>[m
+[31m-	<classpathentry kind="output" path="target/classes"/>[m
+[31m-</classpath>[m
+[1mdiff --git a/.project b/.project[m
+[1mdeleted file mode 100644[m
+[1mindex 72500be..0000000[m
+[1m--- a/.project[m
+[1m+++ /dev/null[m
+[36m@@ -1,34 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="UTF-8"?>[m
+[31m-<projectDescription>[m
+[31m-	<name>com.AutomationExercideBDD</name>[m
+[31m-	<comment></comment>[m
+[31m-	<projects>[m
+[31m-	</projects>[m
+[31m-	<buildSpec>[m
+[31m-		<buildCommand>[m
+[31m-			<name>org.eclipse.jdt.core.javabuilder</name>[m
+[31m-			<arguments>[m
+[31m-			</arguments>[m
+[31m-		</buildCommand>[m
+[31m-		<buildCommand>[m
+[31m-			<name>cucumber.eclipse.builder.stepdefinition</name>[m
+[31m-			<arguments>[m
+[31m-			</arguments>[m
+[31m-		</buildCommand>[m
+[31m-		<buildCommand>[m
+[31m-			<name>cucumber.eclipse.builder.gherkin</name>[m
+[31m-			<arguments>[m
+[31m-			</arguments>[m
+[31m-		</buildCommand>[m
+[31m-		<buildCommand>[m
+[31m-			<name>org.eclipse.m2e.core.maven2Builder</name>[m
+[31m-			<arguments>[m
+[31m-			</arguments>[m
+[31m-		</buildCommand>[m
+[31m-	</buildSpec>[m
+[31m-	<natures>[m
+[31m-		<nature>cucumber.eclipse.nature</nature>[m
+[31m-		<nature>org.eclipse.jdt.core.javanature</nature>[m
+[31m-		<nature>org.eclipse.m2e.core.maven2Nature</nature>[m
+[31m-	</natures>[m
+[31m-</projectDescription>[m
+[1mdiff --git a/.settings/org.eclipse.jdt.core.prefs b/.settings/org.eclipse.jdt.core.prefs[m
+[1mdeleted file mode 100644[m
+[1mindex 8b94239..0000000[m
+[1m--- a/.settings/org.eclipse.jdt.core.prefs[m
+[1m+++ /dev/null[m
+[36m@@ -1,8 +0,0 @@[m
+[31m-eclipse.preferences.version=1[m
+[31m-org.eclipse.jdt.core.compiler.codegen.targetPlatform=21[m
+[31m-org.eclipse.jdt.core.compiler.compliance=21[m
+[31m-org.eclipse.jdt.core.compiler.problem.enablePreviewFeatures=disabled[m
+[31m-org.eclipse.jdt.core.compiler.problem.forbiddenReference=warning[m
+[31m-org.eclipse.jdt.core.compiler.problem.reportPreviewFeatures=ignore[m
+[31m-org.eclipse.jdt.core.compiler.release=disabled[m
+[31m-org.eclipse.jdt.core.compiler.source=21[m
+[1mdiff --git a/.settings/org.eclipse.m2e.core.prefs b/.settings/org.eclipse.m2e.core.prefs[m
+[1mdeleted file mode 100644[m
+[1mindex f897a7f..0000000[m
+[1m--- a/.settings/org.eclipse.m2e.core.prefs[m
+[1m+++ /dev/null[m
+[36m@@ -1,4 +0,0 @@[m
+[31m-activeProfiles=[m
+[31m-eclipse.preferences.version=1[m
+[31m-resolveWorkspaceProjects=true[m
+[31m-version=1[m
+[1mdiff --git a/pom.xml b/pom.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 28a3c83..0000000[m
+[1m--- a/pom.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,91 +0,0 @@[m
+[31m-<project xmlns="http://maven.apache.org/POM/4.0.0"[m
+[31m-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"[m
+[31m-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">[m
+[31m-	<modelVersion>4.0.0</modelVersion>[m
+[31m-	<groupId>com.AutomationExercideBDD</groupId>[m
+[31m-	<artifactId>com.AutomationExercideBDD</artifactId>[m
+[31m-	<version>0.0.1-SNAPSHOT</version>[m
+[31m-[m
+[31m-	<properties>[m
+[31m-		<maven.compiler.source>21</maven.compiler.source>[m
+[31m-		<maven.compiler.target>21</maven.compiler.target>[m
+[31m-	</properties>[m
+[31m-[m
+[31m-[m
+[31m-	<dependencies>[m
+[31m-[m
+[31m-		<!--[m
+[31m-		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->[m
+[31m-		<dependency>[m
+[31m-			<groupId>org.seleniumhq.selenium</groupId>[m
+[31m-			<artifactId>selenium-java</artifactId>[m
+[31m-			<version>4.33.0</version>[m
+[31m-		</dependency>[m
+[31m-[m
+[31m-		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->[m
+[31m-		<dependency>[m
+[31m-			<groupId>io.cucumber</groupId>[m
+[31m-			<artifactId>cucumber-java</artifactId>[m
+[31m-			<version>7.23.0</version>[m
+[31m-		</dependency>[m
+[31m-[m
+[31m-		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->[m
+[31m-		<dependency>[m
+[31m-			<groupId>io.cucumber</groupId>[m
+[31m-			<artifactId>cucumber-core</artifactId>[m
+[31m-			<version>7.23.0</version>[m
+[31m-		</dependency>[m
+[31m-		[m
+[31m-		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->[m
+[31m-		<dependency>[m
+[31m-			<groupId>commons-io</groupId>[m
+[31m-			<artifactId>commons-io</artifactId>[m
+[31m-			<version>2.16.0</version>[m
+[31m-		</dependency>[m
+[31m-[m
+[31m-		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->[m
+[31m-		<dependency>[m
+[31m-			<groupId>io.cucumber</groupId>[m
+[31m-			<artifactId>cucumber-testng</artifactId>[m
+[31m-			<version>7.23.0</version>[m
+[31m-		</dependency>[m
+[31m-[m
+[31m-		<!-- https://mvnrepository.com/artifact/org.testng/testng -->[m
+[31m-		<dependency>[m
+[31m-			<groupId>org.testng</groupId>[m
+[31m-			<artifactId>testng</artifactId>[m
+[31m-			<version>7.11.0</version>[m
+[31m-		</dependency>[m
+[31m-[m
+[31m-		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->[m
+[31m-		<dependency>[m
+[31m-			<groupId>com.aventstack</groupId>[m
+[31m-			<artifactId>extentreports</artifactId>[m
+[31m-			<version>5.1.2</version>[m
+[31m-		</dependency>[m
+[31m-[m
+[31m-		<!--[m
+[31m-		https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter -->[m
+[31m-		<dependency>[m
+[31m-			<groupId>tech.grasshopper</groupId>[m
+[31m-			<artifactId>extentreports-cucumber7-adapter</artifactId>[m
+[31m-			<version>1.14.0</version>[m
+[31m-		</dependency>[m
+[31m-[m
+[31m-[m
+[31m-	</dependencies>[m
+[31m-	<build>[m
+[31m-		<plugins>[m
+[31m-			<plugin>[m
+[31m-				<groupId>org.apache.maven.plugins</groupId>[m
+[31m-				<artifactId>maven-surefire-plugin</artifactId>[m
+[31m-				<version>3.5.3</
