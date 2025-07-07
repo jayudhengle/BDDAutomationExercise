@@ -1,0 +1,7 @@
+pages\LoginUser_Pages.class
+base\BaseClass.class
+Steps\LoginUser_Steps.class
+Steps\RegisterUser_Steps.class
+hooks\Hooks.class
+runner\TestRunner.class
+pages\RegisterUser_Pages.class
